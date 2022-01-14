@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Veryable Coding Challenge</string>
+    <string name="label_accounts">ACCOUNTS</string>
+    <string name="content_desc_backbtn">The back button, press it to go to the previous screen</string>
+    <string name="acc_type">The Account type, whether it\'s bank or card</string>
+    <string name="open_acc_details">Click on this icon to open the account details</string>
+    <string name="btn_label_donne">DONE</string>
+    <string name="label_bank_accounts">Bank Accounts</string>
+    <string name="txt_card_accounts">Cards</string>
+    <string name="title_activity_account_detail">AccountDetailActivity</string>
+    <string name="label_details">DETAILS</string>
+</resources>

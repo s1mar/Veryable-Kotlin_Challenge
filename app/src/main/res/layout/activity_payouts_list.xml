@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/backgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <include android:id="@+id/header" layout="@layout/action_bar"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_below="@id/header"
+            android:id="@+id/body"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".PayoutsListActivity">
+
+            <TextView
+                android:id="@+id/tvEmptyView"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="Items not avail."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <include layout="@layout/list_with_title"
+                android:id="@+id/container_bank_accounts"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="gone"
+                android:layout_weight="1"/>
+            <include layout="@layout/list_with_title"
+                android:id="@+id/container_card_accounts"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="gone"
+                android:layout_weight="1"/>
+
+
+    </LinearLayout >
+    </RelativeLayout>
+</layout>

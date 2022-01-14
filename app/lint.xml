@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconDipSize">
+        <ignore path="src/main/res/drawable-xhdpi/account.png" />
+        <ignore path="src/main/res/drawable-xhdpi/card.png" />
+        <ignore path="src/main/res/drawable-xxhdpi/account.png" />
+        <ignore path="src/main/res/drawable-xxhdpi/card.png" />
+        <ignore path="src/main/res/drawable-xxxhdpi/account.png" />
+        <ignore path="src/main/res/drawable-xxxhdpi/card.png" />
+    </issue>
+</lint>
